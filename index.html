@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Github Finder</title>
+</head>
+<body>
+        <nav class="navbar navbar-light bg-dark">
+            <a class="navbar-brand" href="#">
+                <img src="Octocat.png" width="50" height="50" alt="Github Icon">
+            </a>
+            <a href="#" class="navbar-brand"><h2 class="text-light nav-title">Github finder</h2></a>
+        </nav><br><br>
+       <div class="container searchContainer">
+          <div class="search card card-body">
+              <h1>Search Github Users</h1>
+              <p class="lead">Enter a username to fatch a user profile and repos</p>
+              <input type="text" id="searchUser" class="form-control" placeholder="Enter the github user">
+              <br>
+              <button id="searchBtn" class="btn btn-success">Search</button>
+          </div>
+          <br>
+          <div id="profile"></div>
+       </div><br><br>
+    <footer class="mt-20 p-3 text-center bg-dark text-light
+    ">
+    GitHub Finder &copy 
+    Develop by : <span>Tareq Aziz</span>
+    </footer>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="UI.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+.nav-title{
+float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.navbar-brand img{
+    float: none;
+    margin-left: 50px;
+
+}
+#searchBtn{
+    margin-top: 15px;
+}
